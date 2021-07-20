@@ -1,0 +1,67 @@
+body{
+  background-color: black;
+  color: white
+}
+
+
+table, th, td{
+  border: 1px solid white;
+   
+}
+
+
+td{
+  padding: 9px
+}
+
+
+
+header{
+background-color: darkred;
+width: 100%;
+color: white;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+}	
+
+.sessao{ 
+display: flex; 
+flex-direction: row ; 
+justify-content: space-around; 
+align-items: center; 
+min-height: 50px; 
+background-color: white;
+}
+
+.sessao a{
+font-size: 25px;
+font-weight: bold;
+color: black;
+font-style: italic;
+text-decoration: nome;
+}
+
+​​​
+
+aside{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+min-height: 50px;
+font-style: italic;
+font-weight: bold;
+font-size: 20px;
+background-color: white;
+color: black;
+}	
+
+#ifsp{
+	width: 20%;
+	height: 300px;
+}	
+
+footer{
+background-color: darkred;
+}	

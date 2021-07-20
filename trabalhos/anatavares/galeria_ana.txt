@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+       
+ <head>
+           
+    <meta charset="UTF-8">
+        
+       <title> Ana Paula Tavares </title>
+   
+    </head>
+     
+   <body>
+	<header>
+      <center>
+      <h1>
+	   Ana Paula Tavares📝
+	    </h1>
+      </center>
+      
+    <nav>
+   <ul> 
+   <li> <a href="ana_paula.html" target="_blank"> pagina inicial </a> </li>
+    <li> <a href="galeria_ana.html" target="_blank"> fotos da autora </a> </li>
+    <li> <a href="obras_ana.html" target="_blank"> fotos das obras </a> </li>
+    <li> <a href="premios_ana.html" target="_blank"> fotos dos premios da autora </a> </li>
+</ul> 
+</nav>
+</header>
+<main>
+   <figure>
+ 
+    <center>   
+  <img src="imagem/ana.jpg" alt="ana" width="250px" height="auto" title="Foto Ana Paula Tavares" >
+	  <figcaption> 1° foto </figcaption>
+</center>
+</figure>
+    <figure>
+
+ <center>
+ <img src="imagem/ana2.jpg" alt="ana paula tavares" width="250px" height="auto" title="Foto Ana Paula Tavares" >
+ <figcaption> 2° foto  </figcaption>
+</center>
+</figure>
+    <figure>
+	
+<center>
+ <img src="imagem/ana1.jpg" alt="ana paula tavares" width="250px" height="auto" title="Foto Ana Paula Tavares" >
+ <figcaption> 3° foto  </figcaption>
+</center>
+</figure>
+    <figure>
+	
+<center>
+ <img src="imagem/ana3.jpg" alt="ana paula tavares" width="250px" height="auto" title="Foto Ana Paula Tavares" >
+ <figcaption> 4° foto  </figcaption>
+</center>
+</figure>
+    <figure>
+	 
+	<center>
+  <img src="imagem/ana4.jpg" alt="ana paula tavares" width="250px" height="auto" title="Foto Ana Paula Tavares" >
+  <figcaption> 5° foto  </figcaption>
+</center>
+</figure>
+    <figure>
+	 
+	<center>
+  <img src="imagem/ana5.jpg" alt="ana paula tavares" width="250px" height="auto" title="Foto Ana Paula Tavares" >
+  <figcaption> 6° foto  </figcaption>
+</center>
+</figure>
+</main>
+  <footer> Desenvolvido por Yasmin Vitória </footer> 
+	 
+ </body>
+	 
+ </html>

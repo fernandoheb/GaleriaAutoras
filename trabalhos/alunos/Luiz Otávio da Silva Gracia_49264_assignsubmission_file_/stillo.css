@@ -1,0 +1,66 @@
+.verde{ 
+   background-color:yellow ;
+              color:white;
+        }
+.azul{
+     background-color: darkblue;
+              color:white; 
+}
+
+.preto{
+     background-color: green ;
+              color:white; 
+}
+
+.container-flex{
+              display: flex;
+              width: 100%;
+              justify-content: space-around;
+              align-items: center;
+              /*background-color:#00FFFF;*/
+              /*color:white;*/
+              height: 10%
+}
+
+
+
+/*Cabeçalho*/
+ header{
+       width:100%;
+       text-align: center;
+       padding: 10px 0px;
+ }
+
+
+/*Navegação*/
+nav{ 
+  min-height: 40px;  
+}   
+
+nav a{
+     text-decoration: none;
+     color: inherit;
+
+     border: 1px solid;
+     min-width: 140px;
+     text-align: center;
+     border-radius: 30px; 
+     box-shadow: 2px 2px #00FFFF;
+}
+
+
+
+main{
+    margin-bottom: 100px;  
+}
+
+
+/*rodape*/
+footer{
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      margin: 0;
+}
+     

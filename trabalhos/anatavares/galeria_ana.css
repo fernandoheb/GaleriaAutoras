@@ -1,0 +1,20 @@
+body {
+	background-color: #A16AE8;
+	color: black;
+
+}
+
+header {
+
+background-color:#FD49A0;
+}
+
+.container-flex{
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-around;
+	align-items: center;
+	min-height: 100px;
+	background-color: #B4FEE7;
+	color: black
+}

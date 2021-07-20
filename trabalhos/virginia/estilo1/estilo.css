@@ -1,0 +1,62 @@
+body {
+	
+}
+header {
+    background-color: darkred;
+    width: 100%;
+    color: white;
+	text-align: center;
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+footer { 
+    background-color: black;
+    width: 100%;
+    color: white;
+  text-align: center;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+main { 
+    background-color: darkred;
+     width: 50%
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.link { 
+    background-color: black;
+    idth: 50%;
+    color: white;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+.container-flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	min-height: 50px;
+	background-color: black;
+}
+table, th, td{ 
+          border: 1px solid black;
+          border-collapse: collapse;
+          padding: 
+      }
+      td{ 
+        direction: rtl;
+      }
+
+      .Titulo{
+          color: black;
+          direction: ltr;
+          width: 80px
+      } 

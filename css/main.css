@@ -1,8 +1,14 @@
+@font-face {
+    font-family: 'dancing';
+    src: url('fonts/DancingScript-VariableFont_wght.ttf');
+}
+
 body {
     background-color: black;
 }
 
 header {
+    font-family: 'dancing', cursive;
     background-color: darkred;
     /* Cor de fundo */
     width: 100%;
@@ -13,6 +19,10 @@ header {
     /*alinhamento do texto*/
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+header h1 {
+    font-size: 64px;
 }
 
 .container-flex {

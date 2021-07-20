@@ -1,0 +1,44 @@
+table, th, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+}
+.miniatura {
+   width:auto;
+   height:75px;
+}
+.celula-miniatura{
+  text-align:center;
+}
+ 
+header {
+  background-color: darkred;
+  widht: 100%;
+  color: white;
+  text-align: center;
+  
+  padding-top:20px;
+  padding-bottom:20px;
+  }
+.container-flex{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  min-height: 50px;
+  background-color:black;
+} 
+main{
+  clear: both;
+}
+body { /* seleciona a tag body */
+  background-color:pink; /* altera a cor do fundo para rosa */
+  color:darkred; /* altera a cor da fonte para vermelh escuro */
+}
+h2 { /* seleciona a tag h2 */
+  text-align:center; /* alinha os textos ao centro */
+}
+small{
+  background-color: darkred;
+  widht: 100%;
+  color: white;
+  text-align: center;
+}
