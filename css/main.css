@@ -1,0 +1,129 @@
+body {
+    background-color: black;
+}
+
+header {
+    background-color: darkred;
+    /* Cor de fundo */
+    width: 100%;
+    /*largura */
+    color: white;
+    /* Cor do texto */
+    text-align: center;
+    /*alinhamento do texto*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-height: 50px;
+    background-color: black;
+    color: white;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.column {
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container-flex a {
+    font-size: 25px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.hidden {
+    display: none;
+}
+
+.trabalho {
+    box-shadow: 2px 1px darkred;
+    border-radius: 20px;
+    text-align: center;
+    margin: 2%;
+    width: 15%;
+    /* overflow: hidden;
+    height: 200px;*/
+}
+
+.trabalho:hover {
+    background-color: aliceblue;
+    color: darkcyan;
+    /*  transition-duration: 2s;
+    transition-property: height;
+    height: 550px;*/
+}
+
+.trabalho a:hover {
+    color: darkred;
+    cursor: pointer;
+}
+
+.trabalho .figura {
+    /* border: 1px solid #fff; */
+    width: 100%;
+}
+
+.trabalho .figura .autora {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
+
+.trabalho .figura .autora img {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    /*largura */
+    max-height: 200px;
+    /*altura  */
+}
+
+.trabalho .figura .alunos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+}
+
+.trabalho .figura .alunos img {
+    border-radius: 0px 0px 20px 20px;
+    margin: 0;
+    width: 49%;
+    /*largura */
+    max-height: 200px;
+    /*altura  */
+}
+
+.trabalho .legenda p {
+    font-size: 1.2em;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+}
