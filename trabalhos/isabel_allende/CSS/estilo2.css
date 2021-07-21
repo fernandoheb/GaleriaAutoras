@@ -1,0 +1,29 @@
+body{
+	background-color: #FAEBD7;
+
+
+}
+header{
+	background-color: #CD5C5C;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	text-shadow: 2px 2px #11100E;
+}
+a {
+	color: #A52A2A;
+}
+figcaption{
+	color: #A52A2A;
+
+}
+.container-flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+    min-height: 50px;
+    background-color: #CD5C5C;
+    color: white;

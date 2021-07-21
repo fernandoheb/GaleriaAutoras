@@ -1,0 +1,92 @@
+body {}
+
+
+header {
+    background-color: purple;
+    width: 100%;
+    color: white;
+    text-align: center;
+    
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 50px;
+    background-color: purple;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container-flex a {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+#sobre{
+	text-align: center;
+	font-size:  30px;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+main li {
+    font-weight: bold;
+}
+
+main span {
+    font-size: 5em;
+}
+
+
+footer {
+	position: fixed;	
+	bottom: 0;
+    width: 100%;
+    margin: 0;   
+    background-color: purple;
+    width: 100%;
+    color: white;
+    text-align: center;	
+}
+.hidden {
+    display: none;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+
+.miniatura {
+    width: auto;
+    height: 75px;
+    
+
+}
+
+.celula-miniatura {
+    text-align: center;
+}

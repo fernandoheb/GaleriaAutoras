@@ -1,0 +1,154 @@
+        @font-face {
+              font-family:'kastel';
+              src: url('fonte/kastel.otf');
+              font-weight: normal;
+              font-style: normal;
+        }
+
+        h1 {
+           font-family: 'kastel';
+           font-weight: normal;
+        }
+
+
+        footer {
+             background-color: #013A20;
+             color: white;
+             border-radius:10px;
+             height: 30px;
+             padding: 2px 2px;
+             text-align: left;
+        }
+
+
+        thead {
+            background-color:black;
+            color: white;
+        }
+
+        .ano_publi {
+            color: #478C5C;
+        } 
+
+        .registros {
+            color: #478C5C;
+        }
+
+        header {
+            background-color:#013A20;
+            color: white;
+            height:80px;
+            width: 100%;
+            border-radius:10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1, h5 {
+            text-shadow: 2px 2px black;
+        }
+
+        .menu {
+            background-color: #CDD193;
+        }
+
+        body {
+            background-color: #F9F6F0;
+            font-family: serif; 
+        }
+
+        main {
+            text-align: center;
+        }
+
+        .container-flex{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 10px;
+            width:100%;
+            height:30px;
+        }
+
+
+        #img {
+            width: 20%;
+            border-radius: 50%;
+            border-style: solid;
+            border-color: #CDD193;
+            border-width: 10px;
+        }
+
+        nav a  {
+            text-decoration: none;
+            color: #FFA500;
+            font-size: 20px;
+        }
+
+        a:link {
+            color: inherit;   
+        }
+
+        a:visited {
+            color: inherit;
+        }
+
+        a:hover {
+            color: #FFA500;
+        }
+
+
+        .seções a:hover {
+            text-decoration: underline;
+            color: #FF8C00;
+            background-color: #CDD193;
+            border-radius: 10px;
+        }
+
+        a:active {
+            color: #CDD193;
+            text-decoration: underline;
+        }
+
+    
+        h2 {
+           text-decoration: underline;
+           text-decoration-color: #013A20 ; 
+        }
+
+        p, h5 {
+           font-size: 20px
+        }
+
+        h2, h3, h4{
+             font-size: 30px;
+             text-decoration: underline;
+             text-decoration-color: #013A20;
+        }
+
+        #livro{
+            border-radius: 15px;
+            border-style: solid;
+            border-color: black;
+            border-width: 10px;
+        }
+
+        #texto{
+            font-size: 20px;
+        } 
+
+        table {
+            font-size: 20px;
+        }
+
+        
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+
+
+     

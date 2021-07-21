@@ -1,0 +1,146 @@
+
+            
+			body{
+			   background-color: #FFF0F5;
+			   background-image: linear-gradient(#FFE4E1 40%, #FFF0F5 60%,#FAF0E6 80%, #E0FFFF 97%, #87CEEB 100%);
+			   background-position: top center;
+			   background-size: cover;
+			   background-repeat: no-repeat;
+			   font-size: 17px;
+			}
+			
+	        header{
+			   text-align: center;
+			   background-color: #8B0000;
+			   color: white;
+			   padding: 7px;			  
+			}
+			
+			.tipag {
+				 color: #CD5C5C;
+				 border: 1px ;
+			     outline: 5px double #DB7093;
+			     margin: 50px;
+			     background-color: #FFFAFA;
+			     padding: 10px;				 
+			}
+			
+			.container-flex {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				align-items: center;
+				min-height: 50px;
+				background-color: #B22222;
+				font-size: 18px;
+				
+			}
+			
+			.container-flex a{
+				color: #FAF0E6;
+				border: 1px solid #B22222;
+				min-width: 150px;
+				text-align: center;
+				border-radius: 40px;
+				background-color: #CD5C5C;
+				box-shadow: 5px 5px #A52A2A;
+			}
+			
+			.sessoes {
+				display: inline-block;
+				border: 2px solid #DB7093;
+				padding: 10px;
+				margin: 20px;
+				background-color: #FFFAFA;
+				margin-left: auto;
+                margin-right: auto;
+                width: 200px;
+            }
+			
+			#container-flex{
+				display: flex;
+				justify-content: center;
+			}
+			.image{
+				
+				width: 500px;
+				border-radius: 10px;
+				border-style: solid;
+				border-width: 0px 50px;
+			    border-color: #FFB6C1;
+			}
+			
+			.titulonav {
+				color:  #CD5C5C;
+				text-decoration: overline;
+								
+			}
+			
+			.texto{
+			   border: 1px ;
+			   outline: 5px dotted #DB7093;
+			   margin: 30px;
+			   background-color: #FFFAFA;
+			   padding: 10px;
+			}
+			
+			#titulo {
+			   color: red;
+			   background-color: gold;
+			}
+			
+			.nome_prod {
+			   color: blue ;
+			}			
+			
+		    table, th, td { 
+			  border: 1px solid black ;
+			  border-collapse: collapse ;
+              padding: 5px ;
+			  text-align: center;
+			  }
+			  			
+			thead {
+			   background-color: black;
+			   color: white;
+			}
+			
+			tbody {
+			   background-color: #F2E6D6;
+			}
+			
+			
+			a {
+                text-decoration: none;
+				color: #663399;
+            }
+			
+			p {
+			  text-indent: 50px;
+			  text-align: justify;
+			}
+			
+			
+			
+			h2 {
+			  color: #CD5C5C;
+				
+			}            
+				
+			
+			footer{
+			   color: #000080;
+			   text-align: center;
+			   font-weight: bold;		   			   
+			   width: 100%;
+			   padding: 1%;
+			   background-image: linear-gradient(#AFEEEE 50%,#4682B4,#AFEEEE);
+               letter-spacing: 2px;	
+              		   
+			}
+			
+			
+			
+		 
+ 
+ 

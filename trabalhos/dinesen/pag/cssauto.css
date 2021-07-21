@@ -1,0 +1,20 @@
+header {
+    background-color:  #20B2AA;
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    text-align: center;
+   
+}
+figure{
+    text-align: center;
+    padding: 40px;
+}
+img{
+    width: 30%;
+    height: auto;
+}
+figcaption{
+   font-style: oblique; 
+   font-family: arial;
+
+}

@@ -1,0 +1,36 @@
+table,th,td{
+      border:1px solid pink;
+    }
+
+    .nome_prod{
+
+    }
+    body{
+      color:#E817A3;
+      background-color:#A0E7E5;
+      font-weight: bold;
+
+    }
+    h2{
+      color:black;
+    }
+ header{
+    background-color:black; 
+  }
+  nav{
+    background-color:#B4F8C8;
+    height: 20px;
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+  }
+a{color:inherit;
+
+}
+footer{
+  position:fixed;
+bottom: 0;
+background-color:black;
+width: 100%;
+text-align: center;
+}
