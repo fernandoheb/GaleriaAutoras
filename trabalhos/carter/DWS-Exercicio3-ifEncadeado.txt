@@ -1,0 +1,43 @@
+﻿DWS-Exercicio3-ifEncadeado
+
+
+"Exercício 3"
+
+
+<html>
+     <head>
+             <title>Média Aluno</title>
+                     <meta charset="UTF-8">
+                             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                  </head>
+                                      <body>
+                                        <form novalidate method="POST">
+                                          <input type="number" name="numero1" >
+                                            <input type="number" name="numero2" >
+                                              <br>
+                                                    <button type="submit" name="acao" value="if_encadeado" formaction="media.php" >Média</button>
+  </form>
+  </body>
+</html>
+                                                               
+                                                                ______________________________
+
+
+<?php
+                                                                 $numero1 = filter_input(INPUT_POST, 'numero1');
+                                                                  $numero2 = filter_input(INPUT_POST, 'numero2');
+                                                                   $acao = filter_input(INPUT_POST, 'acao');
+$nota = ($numero1 + $numero2) / 2; 
+if ($acao == 'if_encadeado'){
+      if($nota >= 7){
+               echo "Aprovado com $nota";
+                    }
+                         elseif(($nota < 7) && ($nota >= 4)){
+                                  echo "Recuperação com $nota";
+                                       }
+                                            else{
+                                                     echo "Reprovado com $nota";
+                                                          }
+                                                           }
+                                                            echo "<br>";
+                                                             echo "<a href='calcular.php'> Voltar </a>";
